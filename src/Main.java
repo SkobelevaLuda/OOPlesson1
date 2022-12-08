@@ -10,7 +10,7 @@ public class Main {
         Human katya = new Human (" Катя ", 1992, " Калиниград ", " продакт-менеджером ");
         katya.people();
 
-        Human artem = new Human (" Артем ", 1995, " Москва ",
+        Human artem = new Human (" Артем ", -1995, " Москва ",
                 " директором по развитию бизнеса ");
         artem.people();
 
