@@ -21,6 +21,10 @@ public class Flover {
         return cost;
     }
 
+    public int getLifeSpan() {
+        return lifeSpan;
+    }
+
     public void setFlowerColor(String flowerColor) {
         if (flowerColor == null || flowerColor.isBlank()) {
             this.flowerColor = "Белый";

@@ -30,5 +30,12 @@ public class Main {
         gipsofila.flovers();
 
 
+        Bouquet bouquet=new Bouquet (
+                new Flover[]{roza,roza,roza,
+                        hrizantema,hrizantema,hrizantema,hrizantema,hrizantema,
+                        gipsofila}
+                );
+        bouquet.printInfo();
     }
+
 }
